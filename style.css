@@ -62,9 +62,14 @@ body{
 }
 
 .text-hero button{
-    background-color: lightskyblue;
-    height: 40px;
-    width: 90px;
+    background-color: #3B82F6;
+    height: 50px;
+    width: 140px;
+    border-radius: 15px;
+    color: white;
+    border: solid 1px white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .img-hero img{
@@ -80,7 +85,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 110px;
 }
 
 .cards{
@@ -101,7 +106,7 @@ body{
 .card img{
     height: 150px;
     width: 150px;
-    border: 3px #3B82F6 solid;
+    border: 5px #3B82F6 solid;
     border-radius: 30px;   
 }
 
@@ -110,3 +115,65 @@ body{
 }
 
 
+.testimony{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autor{
+    display: flex;
+    justify-content: end;
+}
+
+.call-to-action{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container{
+    background-color: #3B82F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 150px;    
+    border-radius: 20px;
+}
+
+.cta-container h2{
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.cta-container p{
+    margin-top: 10px;
+}
+.cta-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-button{
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    background-color: #3B82F6;
+    color: white;
+    border: 2px white solid;
+    border-radius: 20px;
+    
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
